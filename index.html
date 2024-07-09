@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>music player </title>
+         
+</head>
+<body>
+    <p id ="demo"></p>
+    <p id ="demo1"></p>
+    <p id="demo2" ><button onclick="myfunction()">for changing name</button></p>
+   
+    <script>
+        let text= " hii this is javascript function to replace all words given in the string";
+        let text1 = "this string for use for concating the string in new array";
+        const name=["jitendra" , "arvind" , "krishna"];
+        text2   =text.concat(text1);
+        text= text.replaceAll("hii","Hii");
+        document.getElementById("demo").innerHTML=text  
+        document.getElementById("demo1").innerHTML=text2  
+        function myfunction(){
+            newtext=   text.replace(hii,jitendra);
+        }
+        document.getElementById("demo2").innerHTML= newtext;
+        </script>
+
+ 
+</body>
+</html>
